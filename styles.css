@@ -5,13 +5,13 @@ body {
   background-color: #f0f0f0;
   padding: 20px;
 }
-h1 {
+/* h1 {
   color: #333;
-}
+} */
 img {
   max-width: 200px;
   border-radius: 20%;
-  margin: 20px 0;
+  margin: 1px 0;
 }
 p {
   font-size: 18px;
@@ -19,17 +19,26 @@ p {
 }
 a {
   text-decoration: none;
+  border-radius: 5px;
+  padding: 10px 12px;
+  background-color: #eaeff5;
   color: #007bff;
-  background-color: #f1dddd;
-  border-radius: 10px;
-  padding: 16px;
-  border: 1px solid red;
-  margin-top: 15px;
+  border: 1px solid #007bff;
 }
 
 #week-day {
   font-weight: bold;
 }
 .track {
-  padding-bottom: 20px;
+  padding-bottom: 5px;
+}
+
+/* Mobile-responsive styles */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 16px;
+  }
 }
