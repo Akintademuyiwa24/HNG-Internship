@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Web Page</title>
+    <!--Link to the CSS file-->
+    <link rel="stylesheet" href="styles.css" />
+    <!--Link to the javascript file-->
+    <script src="App.js"></script>
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1 data-testid="slackUserName">
+          <span>Slack Name:</span> Akintade Olumuyiwa
+        </h1>
+        <img
+          src="Muyi.jpg"
+          alt="Akintade Olumuyiwa"
+          data-testid="slackDisplayImage"
+        />
+      </section>
+
+      <section>
+        <p data-testid="currentDayOfTheWeek">
+          <span id="week-day">Current Day of the Week: </span
+          ><span id="dayOfWeek"></span>
+        </p>
+        <p data-testid="currentUTCTime">
+          <span id="week-day">Current UTC Time (milliseconds): </span
+          ><span id="utcTime"></span>
+        </p>
+        <p data-testid="myTrack" class="track">
+          <span id="week-day">Track: </span><span id="track">Frontend</span>
+        </p>
+        <a
+          href="https://github.com/Akintademuyiwa24/HNG-Internship.git"
+          data-testid="githubURL"
+          >GitHub Repository</a
+        >
+      </section>
+    </main>
+  </body>
+</html>
